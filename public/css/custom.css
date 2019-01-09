@@ -1,0 +1,357 @@
+.btn-primary, .btn-default {
+    padding: 1rem 2.5rem;
+}
+.btn-sm.btn-primary, .btn-sm.btn-default {
+    font-size: 12px;
+    padding: 5px 10px;
+    line-height: 1.5;
+}
+.btn-primary {
+    background: linear-gradient(180deg,#6371c7,#5563c1);
+    border-color: #3f4eae;
+    box-shadow: inset 0 1px 0 0 #6774c8, 0 1px 0 0 rgba(22,29,37,.05), 0 0 0 0 transparent;
+    color: #fff;
+    fill: #fff;
+}
+.btn-primary:hover {
+    background: linear-gradient(180deg,#5c6ac4,#4959bd);
+    border-color: #3f4eae;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-default {
+    background: linear-gradient(180deg,#f4f6f8,#f4f6f8);
+    border-color: #c4cdd5;
+    box-shadow: 0 0 0 0 transparent, inset 0 1px 1px 0 rgba(99,115,129,.1), inset 0 1px 4px 0 rgba(99,115,129,.2);
+}
+.btn-default:hover {
+    background: linear-gradient(180deg,#f9fafb,#f4f6f8);
+    border-color: #c4cdd5;
+}
+hr {
+    margin: 1.8rem 0;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.table-responsive .table {
+    width: 100%;
+    max-width: 100%;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.view-dashboard .table > thead > tr > th, .view-dashboard .table > tbody > tr > th,
+.view-dashboard .table > tfoot > tr > th, .view-dashboard .table > thead > tr > td,
+.view-dashboard .table > tbody > tr > td, .view-dashboard .table > tfoot > tr > td {
+    padding: 12px 8px;
+}
+.modal-header .close {
+    font-size: 30px;
+}
+.add-product.selected {
+    pointer-events: none;
+    box-shadow: none;
+    opacity: .35;
+}
+/* Input checkbox switch */
+.switch-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 25px;
+    margin: 0;
+}
+.switch-checkbox input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch-checkbox .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.switch-checkbox .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 7px;
+    bottom: 5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.switch-checkbox input:checked + .slider {
+    background: linear-gradient(180deg,#5c6ac4,#4959bd);
+}
+.switch-checkbox input:checked + .slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+/* Rounded sliders */
+.switch-checkbox .slider.round {
+    border-radius: 34px;
+}
+.switch-checkbox .slider.round:before {
+    border-radius: 50%;
+}
+/* End Input checkbox switch */
+
+/* Pagination */
+.pagination li:first-child span, .pagination li:first-child a,
+.pagination li:last-child span, .pagination li:last-child a {
+    font-size: 28px;
+    padding: 0 12px;
+    height: 34px;
+    display: block;
+    line-height: 1;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover,
+.pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background: linear-gradient(180deg,#6371c7,#5563c1);
+    border-color: #3f4eae;
+    box-shadow: inset 0 1px 0 0 #6774c8, 0 1px 0 0 rgba(22,29,37,.05), 0 0 0 0 transparent;
+    color: #fff;
+    fill: #fff;
+}
+/* Datepicker */
+.datepicker {
+    padding: 5px;
+}
+.datepicker td {
+    cursor: pointer;
+    text-align: center;
+}
+.datepicker td.active, .datepicker td.active:hover {
+    background: linear-gradient(180deg,#6371c7,#5563c1);
+    border-color: #3f4eae;
+    box-shadow: inset 0 1px 0 0 #6774c8, 0 1px 0 0 rgba(22,29,37,.05), 0 0 0 0 transparent;
+    color: #fff;
+    fill: #fff;
+}
+.iradio_flat-green {
+    margin-right: 10px;
+}
+.box.box-primary {
+    padding: 10px 15px;
+}
+.form-group .btn-primary, .form-group .btn-default {
+    padding: .6rem 1.5rem;
+}
+.form-group label {
+    font-weight: 700;
+}
+.content-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 15px 0;
+    margin-bottom: 30px;
+}
+.content-header h2 {
+    margin: 8px 0 0 0;
+}
+.add-to-cart-event,
+.add-to-checkout-event {
+    padding: 30px;
+    border: 1px solid #d2d6de;
+    position: relative;
+}
+.trigger-place .col-md-6 {
+    flex: 0 0 260px;
+}
+.trigger-place.form-group label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.trigger-place.form-group i {
+    font-size: 50px;
+    display: block;
+    margin: 10px auto;
+}
+.trigger-place.form-group .iradio_flat-green {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+.cross-sell-type span {
+    display: block;
+}
+.input-group-btn:last-child>.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* Modal Select Product */
+.modal-body .box-body {
+    padding: 10px 20px;
+}
+.modal-body .row .col-md-6:first-child .form-group {
+    margin-right: 0;
+}
+.modal-body .row .col-md-6:last-child .form-group {
+    margin-left: 0;
+}
+.modal-body .search-products img {
+    max-width: 100%;
+}
+.modal-body .search-products .table td {
+    text-align: center;
+}
+.modal-body .search-products .table td.pd-image {
+    width: 20%;
+    padding: 3px;
+}
+.modal-body .search-products .table td.pd-name,
+.modal-body .search-products .table td.pd-title {
+    width: 50%;
+}
+.modal-body .search-products .table td.pd-variants {
+    width: 15%;
+    text-align: center;
+}
+.modal-body .search-products .pd-action {
+    vertical-align: middle;
+}
+.btn.remove-product {
+    padding: 6px 12px;
+    box-shadow: none;
+}
+.modal-body .search-products li:first-child span, .modal-body .search-products li:first-child a,
+.modal-body .search-products li:last-child span, .modal-body .search-products li:last-child a {
+    font-size: 14px;
+    padding: 6px 12px;
+    line-height: 20px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+      width: 900px;
+    }
+}
+/* List products */
+.fillter-header {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 25px;
+}
+.fillter-header .form-group {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+}
+.fillter-header .form-group label {
+    padding: 10px 20px;
+    background: #FFF;
+    z-index: 10;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+.fillter-header .form-group input[type=radio]:checked + label {
+    border-bottom: 3px solid #5c6ac4;
+} 
+.fillter-header .form-group input {
+    position: absolute;
+}
+.table-list-offers th,
+.table-list-offers td {
+    text-align: center;
+}
+.table-list-offers .ls-active {
+    width: 120px;
+}
+.table-list-offers .ls-name {
+    text-align: left;
+}
+.table-list-offers .ls-type {
+    width: 180px;
+}
+.table-list-offers .ls-location {
+    width: 180px;
+}
+.table-list-offers .ls-type::first-letter,
+.table-list-offers .ls-location::first-letter {
+    text-transform: capitalize;
+}
+.table-list-offers .ls-date {
+    width: 180px;
+}
+.table-list-offers .ls-report {
+    width: 120px;
+}
+.table-list-offers .ls-action {
+    width: 120px;
+}
+.button-delete-offer {
+    box-shadow: none;
+    padding: 6px 12px;
+}
+/* reportrange */
+#reportrange {
+    padding: .7rem 1.6rem;
+    background: linear-gradient(180deg,#fff,#f9fafb);
+    border: .1rem solid #c4cdd5;
+    box-shadow: 0 1px 0 0 rgba(22,29,37,.05);
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+.daterangepicker td.start-date {
+    border-radius: 4px;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background: #5c6ac4;
+}
+.ranges li {
+    color: #000;
+}
+.ranges li.active,
+.ranges li:hover {
+    background-color: #5c6ac4;
+    border: 1px solid #5c6ac4;
+}
+#highest-view, #lowest-view {
+    clear: both;
+    text-align: center;
+}
+#highest-view td:first-child, #lowest-view td:first-child {
+    text-align: left;
+    width: 60%;
+}
+.offer-by-view-box .nav-tabs,
+.offer-by-conversion-box .nav-tabs {
+    border: none;
+}
+.offer-by-view-box .nav-tabs li.active > a,
+.offer-by-conversion-box .nav-tabs li.active >a {
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-color: #3f4eae;
+}
+/* cavas_report */
+.cavas_report {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
